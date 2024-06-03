@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Daily To-Dos",
+    "version": "1.0",
+    "description": "Shows daily to-dos as soon as you open the browser.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "list.png",
+        "48": "list.png",
+        "128": "list.png"
+      }
+    },
+    "permissions": [
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
